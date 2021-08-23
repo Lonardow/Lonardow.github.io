@@ -1,0 +1,59 @@
+h1 {
+    font-family: monospace;
+    text-align: center;
+
+  }
+  h2{ 
+    font-size: 20px;
+  }
+
+  h3{
+      margin: auto;
+      font-size: 20px;
+  }
+
+  body {
+    background-color: #c6c5b9;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: 550;
+   
+  }
+  .rounded-photo {
+    height: 200px;
+  }
+
+  .button-style {
+    padding: 5px 15px;
+    background-color: #393d3f;
+    color: #c6c5b9;
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .descritpions{
+    font-size:30px;
+  }
+
+  .habilidades {
+  }
+  
+  .image-conteiner {
+    border: 2px;
+    margin-right: 20px;
+    height: 200px;
+  }
+
+  #minha-foto{
+    height: 200px;
+    float: left;
+  }
+  
+  .cabeçalho {
+    background-color: antiquewhite;
+    border: 2px;
+    padding-bottom: 65px;    
+  }
