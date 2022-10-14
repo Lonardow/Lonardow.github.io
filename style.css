@@ -1,5 +1,22 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
 body {
   background-color: bisque;
+}
+
+.titulo {
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+#foto {
+  /* border: 1px solid red; */
+  border-radius: 50%;
+}
+
+.habilidades {
+  /* border: 1px solid red; */
 }
 
 .indice {
