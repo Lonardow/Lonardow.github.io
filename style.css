@@ -21,3 +21,8 @@ body {
 #projetos a {
   color: black;
 }
+
+#github {
+  text-decoration: none;
+  color: aqua;
+}
