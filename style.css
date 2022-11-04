@@ -2,24 +2,22 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: bisque;
-}
-
-.titulo {
-  text-align: center;
-  /* border: 1px solid red; */
+  padding: 5px;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210303/pngtree-maple-leaf-magazine-portfolio-background-picture-image_574724.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #foto {
   /* border: 1px solid red; */
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
-.habilidades {
-  /* border: 1px solid red; */
+#distracao {
+  text-decoration: none;
+  color: aqua;
 }
 
-.indice {
-  position: fixed;
-  bottom: 0%;
+#projetos a {
+  color: black;
 }
