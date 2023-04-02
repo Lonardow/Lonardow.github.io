@@ -45,7 +45,7 @@
       .corPrimaria {
         background-color: #ccc;
       }
-      .corSecondaria {
+      .corSecundaria {
         background-color: #fff;
       }
       p {
@@ -63,12 +63,13 @@
         font-weight: 700;
         color: #aaa;
       }
+
     </style>
     <title>Meu portifólio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light corSecondaria">
-      <a class="navbar-brand" href="#">Leonardo Ferreira</a>
+    <nav class="navbar navbar-expand-lg navbar-light corSecundaria">
+      <a class="navbar-brand" href="#">Portfólio</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -119,6 +120,58 @@
       <div id="projetos" class="container">
         <h2 class="jumbotron-heading text-center">Projetos</h2>
         <div class="row">
+          
+          <!-- CARD -->
+          <div class="col-md-6">
+            <div class="card mb-4 box-shadow">
+              <img
+                class="card-img-top"
+                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                alt="Thumbnail [100%x225]"
+                style="height: 225px; width: 100%; display: block"
+                src="imagens/tdl1.png"
+                data-holder-rendered="true"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Lista de tarefas com autenticação de usuário.
+                  <br>
+                  <br>
+                </p>
+                <ul>
+                  <li>Python</li>
+                  <li>BootStrap</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://djangotodolist-production.up.railway.app"
+                      target="_blank"
+                    >
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Ver Projeto
+                      </button></a
+                    >
+                    <a
+                      href="https://github.com/Lonardow/DjangoToDoList"
+                      target="_blank"
+                      ><button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Código
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CArd -->
           <div class="col-md-6">
             <div class="card mb-4 box-shadow">
               <img
@@ -231,6 +284,9 @@
               <div class="card-body">
                 <p class="card-text">
                   Projeto diario de viagens realizado utilizando React.
+                  <br>
+                  <br>
+                  <br>
                 </p>
                 <ul>
                   <li>React</li>
@@ -266,6 +322,7 @@
               </div>
             </div>
           </div>
+        <!-- /CARD -->
         </div>
       </div>
     </div>
@@ -280,7 +337,7 @@
         </p>
       </div>
     </section>
-
+    
     <!-- Contato -->
     <section id="contato">
       <div>
